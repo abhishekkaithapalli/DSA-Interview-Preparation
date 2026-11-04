@@ -1,11 +1,12 @@
-import arrays.hashing.ContainDuplicates;
+import arrays.hashing.TopKFrequentElements;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr={1,2,3,1};
-        ContainDuplicates duplicate = new ContainDuplicates();
-       var result =duplicate.count_Duplicates(arr);
-        System.out.println(result);
-
+        int[]nums ={7,7};
+        var val = new TopKFrequentElements();
+       var result=  val.topKFrequent(nums,1);
+        System.out.println(Arrays.toString(result));
     }
 }
