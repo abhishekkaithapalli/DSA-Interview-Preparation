@@ -3,7 +3,7 @@ package arrays.hashing;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ContainDuplicates {
+public class ContainDuplicate {
     public boolean count_Duplicates(int[] nums){ //Time Complexity o(n) , space complexity o(n)
         Set<Integer> set = new HashSet<>();
         for (int i=0;i< nums.length;i++){
