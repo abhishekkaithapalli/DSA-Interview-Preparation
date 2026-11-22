@@ -2,7 +2,7 @@ package arrays.hashing;
 
 import java.util.*;
 
-public class GroupAnagram {
+public class GroupAnagrams {
     public List<List<String>> groupanagram(String[] array) {  //Time complexity o(n*k), Space complexity o(n*k)
         Map<String, List<String>> maplist = new HashMap<>();
         for (var s : array) {
