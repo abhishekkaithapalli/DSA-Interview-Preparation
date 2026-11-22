@@ -3,7 +3,7 @@ package arrays.hashing;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EncodeAndDecodeString {
+public class EncodeAndDecodeStrings {
     public String encodeString(List<String> list) { // Time Complexity O(n) ,Space complexity O(n)
         StringBuilder builder = new StringBuilder();
         for (var a : list) {
