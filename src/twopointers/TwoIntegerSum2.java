@@ -1,6 +1,6 @@
 package twopointers;
 
-public class TwoIntegerSum2 {
+public class TwoIntegerSumII {
     public int[] two_Integer_Sum(int[] nums , int target){ // Time complexity o(n) , Space complexity o(1)
         int left = 0;
         int right = nums.length-1;
