@@ -19,13 +19,13 @@ public  class  BestTimeToBuySell {
     public static void main(String[] args) {
         var solver = new BestTimeToBuySell();
         int[] prices1 = {7, 1, 5, 3, 6, 4};
-        System.out.println("Max Profit (Test 1): " + solver.maxProfit(prices1));
+        System.out.println("Max Profit (Test 1): " + solver.maxProfit(prices1)); // Expected 5
 
         int[] prices2 = {7, 6, 4, 3, 1};
-        System.out.println("Max Profit (Test 2): " + solver.maxProfit(prices2));
+        System.out.println("Max Profit (Test 2): " + solver.maxProfit(prices2)); // Expected 0
 
         int[] prices3 = {5};
-        System.out.println("Max Profit (Test 3): " + solver.maxProfit(prices3));
+        System.out.println("Max Profit (Test 3): " + solver.maxProfit(prices3)); // Expected 0
 
     }
 }
