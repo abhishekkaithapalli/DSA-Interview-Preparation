@@ -1,7 +1,7 @@
 package slidingwindow;
 
 public  class  BestTimeToBuySell {
-    public  int maxProfit(int[] prices){ // O(n) Time & O(1) Space
+    public  int maxProfit(int[] prices){ // O(n) Time & O(1) Space 
         if(prices == null || prices.length <2)
             return 0;
         int costPrice = prices[0];
