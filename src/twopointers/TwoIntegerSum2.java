@@ -1,7 +1,7 @@
 package twopointers;
 
 public class TwoIntegerSumII {
-    public int[] two_Integer_Sum(int[] nums , int target){  // Time complexity o(n) , Space complexity o(1)
+    public int[] twoSum(int[] nums , int target){  // Time complexity o(n) , Space complexity o(1)
         int left = 0;
         int right = nums.length-1;
         int count=0;
@@ -22,5 +22,24 @@ public class TwoIntegerSumII {
             }
         }
         return result;
+    }
+     public static void main(String[] args) {
+        TwoIntegerSumII solver = new TwoIntegerSumII();
+         
+        int[] numbers1 = {2, 7, 11, 15};
+        int target1 = 9;
+        System.out.println("Test 1 Result: " + Arrays.toString(solver.twoSum(numbers1, target1)));
+
+        int[] numbers2 = {2, 3, 4};
+        int target2 = 6;
+        System.out.println("Test 2 Result: " + Arrays.toString(solver.twoSum(numbers2, target2)));
+
+         int[] numbers3 = {-1, 0};
+        int target3 = -1;
+        System.out.println("Test 3 Result: " + Arrays.toString(solver.twoSum(numbers3, target3)));
+
+        int[] numbers4 = {1, 3, 3, 5};
+        int target4 = 6;
+        System.out.println("Test 4 Result: " + Arrays.toString(solver.twoSum(numbers4, target4)));
     }
 }
