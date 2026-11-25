@@ -24,6 +24,7 @@ public class ValidPalindrome {
     }
 public static void main(String[] args) {
         ValidPalindrome solution = new ValidPalindrome();
+    
         System.out.println(solution.isPallindrome("A man, a plan, a canal: Panama")); // true
         System.out.println(solution.isPallindrome("race a car")); // false
         System.out.println(solution.isPallindrome(" ")); // true
