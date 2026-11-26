@@ -1,7 +1,7 @@
 package slidingwindow;
 
 public class LongestRepetingCharacterReplacement {
-    public int characterReplacement(String word, int k) { // Time: O(n), Space: O(1)
+    public int characterReplacement(String word, int k) {  // Time: O(n), Space: O(1)
         int[] freq = new int[26];                          // Assumes uppercase A-Z only.
         int left = 0;
         int maxFrequency = 0;
