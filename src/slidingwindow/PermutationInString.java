@@ -29,7 +29,7 @@ public class PermutationInString {
     public static void main(String[] args) {
         var solution = new PermutationInString();
         System.out.println(solution.permutationInString("abc", "ab"));       // false (s1 longer than s2)
-        System.out.println(solution.permutationInString("abc", "abc"));       // true (same length, exact match)
+        System.out.println(solution.permutationInString("abc", "abc"));      // true (same length, exact match)
         System.out.println(solution.permutationInString("aab", "ab"));       // false (s1 longer than s2)
         System.out.println(solution.permutationInString("aab", "baaxx"));    // true (permutation at the start)
         System.out.println(solution.permutationInString("abc", "xxxxabc"));  // true (permutation at the end)
