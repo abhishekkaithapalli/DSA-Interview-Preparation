@@ -3,8 +3,8 @@ package slidingwindow;
 import java.util.Arrays;
 
 public class PermutationInString {
-    public boolean permutationInString(String s1, String s2) { //O(26*n)Time ,O(1) space
-        if (s1.length() > s2.length())                         // Ignore constant so O(n)Time
+    public boolean permutationInString(String s1, String s2) {  //O(26*n)Time ,O(1) space
+        if (s1.length() > s2.length())                          // Ignore constant so O(n)Time
             return false;
         int[] count1 = new int[26];
         int[] count2 = new int[26];
